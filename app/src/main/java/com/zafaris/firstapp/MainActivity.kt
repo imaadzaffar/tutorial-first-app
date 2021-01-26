@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
             if (name.isEmpty()) {
                 Toast.makeText(this, "Please enter your name", Toast.LENGTH_SHORT).show()
             } else {
-                val content = "Hi $name! Have a nice day :)"
-                textContent.text = content
+                val message = "Hi $name! Have a nice day :)"
+                textContent.text = message
             }
         }
 
